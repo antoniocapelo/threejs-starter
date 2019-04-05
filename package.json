@@ -1,0 +1,22 @@
+{
+  "name": "threejs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "ortho": "parcel orthographic.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "intrinsic-scale": "^3.0.3",
+    "magicshader": "^0.1.1",
+    "three": "^0.98.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.7"
+  }
+}
